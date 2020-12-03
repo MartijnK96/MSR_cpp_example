@@ -36,7 +36,7 @@ public:
 		return true;
 	}
 
-	string const & getCurrentTask() const
+	sstring getCurrentTask() const
 	{
 		if (job.empty())
 			return "";
